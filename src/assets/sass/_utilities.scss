@@ -1,0 +1,12 @@
+.spacing > * + * {
+    margin-top: 2.5rem;
+    margin-top: var(--spacer, 2.5rem);
+}
+.container {
+    width: 90%;
+    max-width: 125rem;
+    margin: 0 auto;
+    @media only screen and(min-width:$v-6) {
+        width: 85%;
+    }
+}
